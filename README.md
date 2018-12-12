@@ -21,9 +21,7 @@ First install the pip toolkit by downloading and extracting [pip-18.1.tar.gz.](h
 Then type the following lines of code into command prompt (line interpreter):
 
 `set path=%path%;C:/Python34/`
-
 `cd C:/Users/**/***/pip-18.1/`
-
 `python setup.py install`
 
 ** Account user name
