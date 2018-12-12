@@ -26,9 +26,9 @@ cd C:/Users/**/***/pip-18.1/
 python setup.py install
 ```
 
-** Account user name
+** *Account user name*
 
-*** Root directory of pip-18.1 installation folder
+*** *Root directory of pip-18.1 installation folder*
 
 #### newsapi
 Type the following lines of code into command prompt (line interpreter):
@@ -79,18 +79,18 @@ To run this script locally, please copy and paste the following files in your ro
 
 Subsequently you must modify the following lines of code to reflect the location of your root directory:
 
-Line 57: `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
+**Line 57:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
 
-Line 276: `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
+**Line 276:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
 
-Line 281: `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
+**Line 281:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
 
-Line 137: `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
+**Line 137:** `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
 
-Line 188: `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
+**Line 188:** `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
 
-Line 239: `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
+**Line 239:** `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
 
-** Account user name
+** *Account user name*
 
-*** Root directory of Trading Sentiment Analyzer installation folder
+*** *Root directory of Trading Sentiment Analyzer installation folder*
