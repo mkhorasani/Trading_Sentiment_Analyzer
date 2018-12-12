@@ -1,4 +1,4 @@
-# Trading_Sentiment_Analyzer
+# Trading Sentiment Analyzer
 
 ## Summary
 Trading Sentiment Analyzer will analyze any trading instrument by retrieving archived news articles and will subsequently compute a normalized score for the sentiment of that instrument.
@@ -12,4 +12,55 @@ The entire trading community can benefit from such a tool, including but not lim
 ## Installation
 
 ### Python 3.4
-If you do not already have a Python installation, please install Python 3.4 or a later version from here [GitHub](http://github.com)
+If you do not already have a Python installation, please install Python 3.4 or a later version from [here.](https://www.python.org/downloads/release/python-340/)
+
+### Toolkits
+
+#### pip
+First install the pip toolkit by downloading and extracting [pip-18.1.tar.gz.](https://pypi.org/project/pip/#files)
+Then type the following lines of code into command prompt (line interpreter):
+
+`set path=%path%;C:/Python34/`
+
+`cd C:/Users/**/***/pip-18.1/`
+
+`python setup.py install`
+
+** Account user name
+
+*** Root directory of pip-18.1 installation folder
+
+#### newsapi
+Type the following lines of code into command prompt (line interpreter):
+
+`set path=%path%;C:/Python34/Scripts/`
+
+`pip install newsapi`
+
+#### requests
+Type the following lines of code into command prompt (line interpreter):
+
+`set path=%path%;C:/Python34/Scripts/`
+
+`pip install requests`
+
+#### tkinter
+Type the following lines of code into command prompt (line interpreter):
+
+`set path=%path%;C:/Python34/Scripts/`
+
+`pip install tkinter`
+
+#### metapy
+Type the following lines of code into command prompt (line interpreter):
+
+`set path=%path%;C:/Python34/Scripts/`
+
+`pip install metapy`
+
+#### collections
+Type the following lines of code into command prompt (line interpreter):
+
+`set path=%path%;C:/Python34/Scripts/`
+
+`pip install collections`
