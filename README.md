@@ -20,9 +20,9 @@ If you do not already have a Python installation, please install Python 3.4 or a
 First install the pip toolkit by downloading and extracting [pip-18.1.tar.gz.](https://pypi.org/project/pip/#files)
 Then type the following lines of code into command prompt (line interpreter):
 
-`set path=%path%;C:/Python34/`
-`cd C:/Users/**/***/pip-18.1/`
-`python setup.py install`
+```set path=%path%;C:/Python34/
+   cd C:/Users/**/***/pip-18.1/
+   python setup.py install```
 
 ** Account user name
 
