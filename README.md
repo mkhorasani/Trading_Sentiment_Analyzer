@@ -1,4 +1,6 @@
 # Trading_Sentiment_Analyzer
+
+## Summary
 Trading Sentiment Analyzer will analyze any trading instrument by retrieving archived news articles and will subsequently compute a normalized score for the sentiment of that instrument.
 
 ## What is the function of the tool?
@@ -6,3 +8,8 @@ Traders are well acquainted with the phenomenon of ‘sentiment’ in stock mark
 
 ## Who will benefit from such a tool?
 The entire trading community can benefit from such a tool, including but not limited to private investors, institutional investors, banks, insurers etc. Basically, any individual or entity that intends to make a more empirical decision when trading could benefit from this tool by knowing what the short-term future may hold for that trading instrument, thereby increasing their possibility of returns. However it is necessary to acknowledge, that such technical indicators are not always or entirely accurate and user discretion must be exercised at all times.
+
+## Installation
+
+### Python 3.4
+If you do not already have a Python installation, please install Python 3.4 or a later version from here [GitHub](http://github.com)
