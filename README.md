@@ -33,34 +33,39 @@ python setup.py install
 #### newsapi
 Type the following lines of code into command prompt (line interpreter):
 
-`set path=%path%;C:/Python34/Scripts/`
-
-`pip install newsapi`
+```
+set path=%path%;C:/Python34/Scripts/`
+pip install newsapi
+```
 
 #### requests
 Type the following lines of code into command prompt (line interpreter):
 
-`set path=%path%;C:/Python34/Scripts/`
-
-`pip install requests`
+```
+set path=%path%;C:/Python34/Scripts/`
+pip install requests
+```
 
 #### tkinter
 Type the following lines of code into command prompt (line interpreter):
 
-`set path=%path%;C:/Python34/Scripts/`
-
-`pip install tkinter`
+```
+set path=%path%;C:/Python34/Scripts/`
+pip install tkinter
+```
 
 #### metapy
 Type the following lines of code into command prompt (line interpreter):
 
-`set path=%path%;C:/Python34/Scripts/`
-
-`pip install metapy`
+```
+set path=%path%;C:/Python34/Scripts/`
+pip install metapy
+```
 
 #### collections
 Type the following lines of code into command prompt (line interpreter):
 
-`set path=%path%;C:/Python34/Scripts/`
-
-`pip install collections`
+```
+set path=%path%;C:/Python34/Scripts/`
+pip install collections
+```
