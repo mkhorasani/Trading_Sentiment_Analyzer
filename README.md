@@ -79,17 +79,17 @@ To run this script locally, please copy and paste the following files in your ro
 
 Subsequently you must modify the following lines of code to reflect the location of your root directory:
 
-**Line 57:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
+**Line 50:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
 
-**Line 276:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
+**Line 269:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
 
-**Line 281:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
+**Line 310:** `logo = PhotoImage(file='C:/Users/**/***/Illinois Logo.gif')`
 
-**Line 137:** `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
+**Line 130:** `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
 
-**Line 188:** `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
+**Line 181:** `tok2 = metapy.analyzers.ListFilter(tok2, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
 
-**Line 239:** `tok1 = metapy.analyzers.ListFilter(tok1, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
+**Line 232:** `tok3 = metapy.analyzers.ListFilter(tok3, "C:/Users/**/***/lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)`
 
 ** *Account user name*
 
