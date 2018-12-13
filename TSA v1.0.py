@@ -31,19 +31,12 @@ def gui():
         app.destroy()
         sleep(1)
         
-    global language
-    language=''
-    def beenClicked3():
-        radioValue = 'Please select a language'
-        tkinter.messagebox.showinfo('Please select a language', radioValue)
-        return
     def beenClicked4():
         radioValue = 'Please fill in the name of your trading instrument'
         tkinter.messagebox.showinfo('Please fill in the name of your trading instrument', radioValue)
         return
     def close_window1():
-        global language
-        language='English'
+
         if custName.get()=='':
             beenClicked4()
         if custName.get() != '':
