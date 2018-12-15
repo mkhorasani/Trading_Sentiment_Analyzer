@@ -210,13 +210,13 @@ The following selection will divulge into the various sections of this program a
 **Lines 86-97:** this section of the program creates an empty variable called query that will be assigned to the entry field of the GUI in the previous section. This variable will then be appended to another string called ' trading' to form a query such as 'aapl trading'. This query will then be used to retrieve relevant news articles in the following sections. Also in this part of the code, the date and time toolkits will be used to created timestamps for 1 day, 1 week and 1 months that will be used in following sections to retrieve news articles from within these time periods.
 
 ### One day sentiment
-**Lines 105-149:** this section of the code uses the formed query with the Google News API to retrieve news articles within the time period of 1 day. Subsequently the metapy tooklit will be used to parse, tokenize, stem and apply other filters to the retrieved text. Then the counter toolkits will be used to count the instances of negative terms `NS1` and postitive terms `PS1` in the tokenized list. The sentiment score will be calculated by calculation the difference between positive and negative terms `(PS1 - NS1)` and then will be normalized by dividing the result by the total number of positive and negative terms `(PS1 - NS1)/(PS1 + NS1)`. The final score will be rounded to 2 decimal places. 
+**Lines 105-149:** this section of the code uses the formed query with the Google News API to retrieve news articles within the time period of 1 day. Subsequently the metapy tooklit will be used to parse, tokenize, stem and apply other filters to the retrieved text. Then the counter toolkits will be used to count the instances of negative terms `NS1` and postitive terms `PS1` in the tokenized list. The sentiment score will be calculated by calculation the difference between positive and negative terms `(PS1 - NS1)` and then will be normalized by dividing the result by the total number of positive and negative terms `(PS1 - NS1)/(PS1 + NS1)`. The final score will be rounded to 2 decimal places. The Google News API can be modified to include different domains (news websites), different sorting methods i.e. publishing date/relevance/popularity, news article language and page size (number of returned results). The list of positive and negative terms can also be modified to add or remove terms in the 'Term Frequency' count. 
 
 ### One week sentiment
-**Lines 156-200:** this section of the code uses the formed query with the Google News API to retrieve news articles within the time period of 1 week. Subsequently the metapy tooklit will be used to parse, tokenize, stem and apply other filters to the retrieved text. Then the counter toolkits will be used to count the instances of negative terms `NS2` and postitive terms `PS2` in the tokenized list. The sentiment score will be calculated by calculation the difference between positive and negative terms `(PS2 - NS2)` and then will be normalized by dividing the result by the total number of positive and negative terms `(PS2 - NS2)/(PS2 + NS2)`. The final score will be rounded to 2 decimal places. 
+**Lines 156-200:** this section of the code uses the formed query with the Google News API to retrieve news articles within the time period of 1 week. Subsequently the metapy tooklit will be used to parse, tokenize, stem and apply other filters to the retrieved text. Then the counter toolkits will be used to count the instances of negative terms `NS2` and postitive terms `PS2` in the tokenized list. The sentiment score will be calculated by calculation the difference between positive and negative terms `(PS2 - NS2)` and then will be normalized by dividing the result by the total number of positive and negative terms `(PS2 - NS2)/(PS2 + NS2)`. The final score will be rounded to 2 decimal places. The Google News API can be modified to include different domains (news websites), different sorting methods i.e. publishing date/relevance/popularity, news article language and page size (number of returned results). The list of positive and negative terms can also be modified to add or remove terms in the 'Term Frequency' count.
 
 ### One month sentiment
-**Lines 207-251:** this section of the code uses the formed query with the Google News API to retrieve news articles within the time period of 1 month. Subsequently the metapy tooklit will be used to parse, tokenize, stem and apply other filters to the retrieved text. Then the counter toolkits will be used to count the instances of negative terms `NS3` and postitive terms `PS3` in the tokenized list. The sentiment score will be calculated by calculation the difference between positive and negative terms `(PS3 - NS3)` and then will be normalized by dividing the result by the total number of positive and negative terms `(PS3 - NS3)/(PS3 + NS3)`. The final score will be rounded to 2 decimal places. 
+**Lines 207-251:** this section of the code uses the formed query with the Google News API to retrieve news articles within the time period of 1 month. Subsequently the metapy tooklit will be used to parse, tokenize, stem and apply other filters to the retrieved text. Then the counter toolkits will be used to count the instances of negative terms `NS3` and postitive terms `PS3` in the tokenized list. The sentiment score will be calculated by calculation the difference between positive and negative terms `(PS3 - NS3)` and then will be normalized by dividing the result by the total number of positive and negative terms `(PS3 - NS3)/(PS3 + NS3)`. The final score will be rounded to 2 decimal places. The Google News API can be modified to include different domains (news websites), different sorting methods i.e. publishing date/relevance/popularity, news article language and page size (number of returned results). The list of positive and negative terms can also be modified to add or remove terms in the 'Term Frequency' count.
 
 ### Error message
 **Lines 258-288:** this section of the cose constructs a GUI window that alerts the user when there is not enough positive or negative terms counted in the retrieved news articles. If the number of postive terms and negative terms within a 1 day timestamp are less than 3 `(PS1 + NS1) < 3` the error message is triggered using the tkinter toolkit, which displays the following message in a new window:
@@ -225,6 +225,25 @@ The following selection will divulge into the various sections of this program a
                                   No information found for this instrument.
                                          
                                     Please try another trading instrument.
+``` 
+
+### Score and report graphical user interface
+**Lines 295-366:** this section of the code constructs a GUI window using the tkinter toolkit that displays the results of a successful sentiment analysis. It displays the trading instrument, one day sentiment score, one week sentiment score, one month sentiment score and overall sentiment score. The parameters that can be modified in this section include the dimensions, layout, static images, static text etc. of the GUI windows. The GUI will only be triggered if there are more than 2 positive and negative terms within the 1 day timestamp `(PS1 + NS1 > 2)`, this is done in order to filter out any irrelevant queries that may have some positive and negative terms but are otherwise irrelevant. The final results will be displayed as shown below:
+
+```
+----------------------------------- TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
+
+Sentiment Values Range From -1 to +1             -1 = Negative Sentiment           +1 = Positive Sentiment
+
+                                         Trading Instrument: aapl
+
+                                         One Day Sentiment: -0.22
+
+                                         One Week Sentiment: -0.05
+
+                                         One Month Sentiment: -0.13
+
+                                         Overall Sentiment: -0.13
 ``` 
 
 ## Disclaimer 
