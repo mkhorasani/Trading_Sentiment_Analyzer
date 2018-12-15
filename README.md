@@ -9,13 +9,12 @@ Traders are well acquainted with the phenomenon of ‘sentiment’ in stock mark
 ## Who will benefit from such a tool?
 The entire trading community can benefit from such a tool, including but not limited to private investors, institutional investors, banks, insurers etc. Basically, any individual or entity that intends to make a more empirical decision when trading could benefit from this tool by knowing what the short-term future may hold for that trading instrument, thereby increasing their possibility of returns. However it is necessary to acknowledge, that such technical indicators are not always or entirely accurate and user discretion must be exercised at all times.
 
-## Installation
-
 ## Running online
 To run this program online please visit the following URL [mkhorasani.pythonanywhere.com](https://mkhorasani.pythonanywhere.com/).
 
 
-## Running locally
+## Running locally 
+To install and run this program on your local machine please execute the following steps in order.
 
 ### Python 3.4
 If you do not already have a Python installation, please install Python 3.4 or a later version from [here.](https://www.python.org/downloads/release/python-340/)
@@ -112,7 +111,7 @@ Please register with Google News API [here](https://newsapi.org/s/google-news-ap
 ## Usage
 
 ### Running online
-To use this program online, simply type the name of the trading instrument in the entry field and click on the button 'Generate Report'. You will be take to a page that displays the following information:
+To use this program online, simply type the name of the trading instrument in the entry field and click on the button 'Generate Report'. You will be taken to a page that displays the following information:
 
 ```
 ----------------------------------- TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
@@ -127,6 +126,69 @@ Sentiment Values Range From -1 to +1             -1 = Negative Sentiment        
 
                                          One Month Sentiment: -0.13
 
-                                         Overall sentiment: -0.13
+                                         Overall Sentiment: -0.13
 ```                                                              
-                                                            
+Please note that by 'trading instrument' we are referring to any stock, currency, commodity, index fund etc. 
+Please do not enter irrelevant words or phrases into the entry field as you will receive a 'N/A' value in the report as shown below. 
+
+```
+----------------------------------- TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
+
+Sentiment Values Range From -1 to +1             -1 = Negative Sentiment           +1 = Positive Sentiment
+
+                                         Trading Instrument: berlin
+
+                                         One Day Sentiment: N/A
+
+                                         One Week Sentiment: N/A
+
+                                         One Month Sentiment: N/A
+
+                                         Overall Sentiment: N/A
+``` 
+
+Under exceptional circumstances you may receive a score for an irrelevant entry, however the scores will simply reflect the sentiment regarding your entry and will generally be unpurposeful.  
+
+### Running locally
+After the successful installation of all the required toolkits and code modifications explained in the previous section, you may simply execute the TSA v1.0.py script by hitting your 'F5' key when the Python IDE is open with the script. Subsequently a window will appear that will prompt you to enter the name of your trading instrument and then you may click on the button 'Generate Report'. A new window with the following information will be displayed:
+
+```
+----------------------------------- TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
+
+Sentiment Values Range From -1 to +1             -1 = Negative Sentiment           +1 = Positive Sentiment
+
+                                         Trading Instrument: aapl
+
+                                         One Day Sentiment: -0.22
+
+                                         One Week Sentiment: -0.05
+
+                                         One Month Sentiment: -0.13
+
+                                         Overall Sentiment: -0.13
+``` 
+
+In the event of an irrelevant entry into the entry field, another window appear displaying the following message:
+
+```
+                                         No information found for this instrument.
+                                         
+                                          Please try another trading instrument.
+```                                          
+
+#### Interpreting the scores
+The 'sentiment' score range from a relative score of -1 to +1. -1 represents a perfectly negative sentiment, whereas +1 represents a perfectly positive sentiment, and 0 a perfectly neutral sentiment. Most often the scores will be somewhere in between, displayed with upto 2 decimal places. The scores a presented as follows:
+
+One Day Sentiment: (the sentiment for one day's worth of news articles on the internet)
+
+One Week Sentiment: (the sentiment for one week's worth of news articles on the internet)
+
+One Month Sentiment: (the sentiment for one month's worth of news articles on the internet)
+
+Overall Sentiment: (the arithmetic mean for the one day, one week and one month sentiment value's with equal weighting)
+
+Therefore a negative score suggests that the sentiment regarding the trading instrument is negative and perhaps it is best not to buy that instrument, or if you already own any of that instrument you may want to sell it. Vice versa, a positive score suggests that the sentiment regarding the trading instrument is positive and perhaps it best to buy that instrument, or if you already own any of that instrument you may want to hold on to it.
+
+**THE RESULTS OF THIS TOOL ARE NOT ALWAYS OR ENTIRELY ACCURATE**
+**USER DISCRETION IS ADVISED AT ALL TIMES**
+**NO LIABILITY OR RESPONSIBILITY WILL BE ACCEPTED IF IT'S USE RESULTS IN FINANCIAL LOSSES TO ANY INDIVIDUAL OR ENTITY**
