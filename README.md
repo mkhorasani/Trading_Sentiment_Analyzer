@@ -190,7 +190,7 @@ The 'sentiment' score range from a relative score of -1 to +1. -1 represents a p
 Therefore a negative score suggests that the sentiment regarding the trading instrument is negative and perhaps it is best not to buy that instrument, or if you already own any of that instrument you may want to sell it. Vice versa, a positive score suggests that the sentiment regarding the trading instrument is positive and perhaps it best to buy that instrument, or if you already own any of that instrument you may want to hold on to it.
 
 ## Disclaimer 
-**THE RESULTS OF THIS TOOL ARE NOT ALWAYS OR ENTIRELY ACCURATE. USER DISCRETION IS ADVISED AT ALL TIMES.**
+**THE RESULTS OF THIS PROGRAM ARE NOT ALWAYS OR ENTIRELY ACCURATE. USER DISCRETION IS ADVISED AT ALL TIMES.**
 
 **NO LIABILITY OR RESPONSIBILITY WILL BE ACCEPTED IF THIS PROGRAM'S USE RESULTS IN FINANCIAL LOSSES FOR ANY INDIVIDUAL OR ENTITY.**
 
