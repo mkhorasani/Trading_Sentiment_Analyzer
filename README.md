@@ -179,13 +179,13 @@ In the event of an irrelevant entry into the entry field, another window appear 
 ### Interpreting the scores
 The 'sentiment' score range from a relative score of -1 to +1. -1 represents a perfectly negative sentiment, whereas +1 represents a perfectly positive sentiment, and 0 a perfectly neutral sentiment. Most often the scores will be somewhere in between, displayed with upto 2 decimal places. The scores a presented as follows:
 
-One Day Sentiment: (the sentiment for one day's worth of news articles on the internet)
+**One Day Sentiment:** (the sentiment for one day's worth of news articles on the internet)
 
-One Week Sentiment: (the sentiment for one week's worth of news articles on the internet)
+**One Week Sentiment:** (the sentiment for one week's worth of news articles on the internet)
 
-One Month Sentiment: (the sentiment for one month's worth of news articles on the internet)
+**One Month Sentiment:** (the sentiment for one month's worth of news articles on the internet)
 
-Overall Sentiment: (the arithmetic mean for the one day, one week and one month sentiment scores with equal weighting)
+**Overall Sentiment:** (the arithmetic mean for the one day, one week and one month sentiment scores with equal weighting)
 
 Therefore a negative score suggests that the sentiment regarding the trading instrument is negative and perhaps it is best not to buy that instrument, or if you already own any of that instrument you may want to sell it. Vice versa, a positive score suggests that the sentiment regarding the trading instrument is positive and perhaps it best to buy that instrument, or if you already own any of that instrument you may want to hold on to it.
 
