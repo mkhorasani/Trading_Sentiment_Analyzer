@@ -189,6 +189,29 @@ The 'sentiment' score range from a relative score of -1 to +1. -1 represents a p
 
 Therefore a negative score suggests that the sentiment regarding the trading instrument is negative and perhaps it is best not to buy that instrument, or if you already own any of that instrument you may want to sell it. Vice versa, a positive score suggests that the sentiment regarding the trading instrument is positive and perhaps it best to buy that instrument, or if you already own any of that instrument you may want to hold on to it.
 
+## Code
+The following selection will divulge into the various sections of this program and will provide an overview of how this program can be modified to suit the users needs.
+
+### Toolkits
+**Lines 13-22:** this section of the program simply imports the toolkits that are used in this program. Currently the following toolkits are used:
+
+1. newsapi - used to retrieve articles from the Google News API
+2. datetime - used to dynamically generate time stamps that are used to retrieve news articles from certain dates
+3. time - used to alter time stamps in order to retrieve news articles from past dates
+4. requests - used to make http requests
+5. tkinter - used to design and execute graphical user interfaces
+6. metapy - used to tokenize, stem and apply other filters to the text of retrieved news articles
+7. counter - used to count the instances of words in an array of words
+
+### Graphical user interface
+**Lines 28-77:** this section of the program uses the toolkit 'tkinter' to construct a GUI window that allows the user to input their required trading instrument and generate a report accordingly. This section also constructs another GUI window that alerts the user they have entered a null field. The parameters that can be modified in this section include the dimensions, layout, static images, static text etc. of the GUI windows.
+
+### Date and query formation
+**Lines 86-97:** this section of the program creates an empty variable called query that will be assigned to the entry field of the GUI in the previous section. This variable will then be appended to another string called ' trading' to form a query such as 'aapl trading'. This query will then be used to retrieve relevant news articles in the following sections. Also in this part of the code, the date and time toolkits will be used to created timestamps for 1 day, 1 week and 1 months that will be used in following sections to retrieve news articles from within these time periods.
+
+### One day sentiment
+**Lines
+
 ## Disclaimer 
 **THE RESULTS OF THIS PROGRAM ARE NOT ALWAYS OR ENTIRELY ACCURATE. USER DISCRETION IS ADVISED AT ALL TIMES.**
 
