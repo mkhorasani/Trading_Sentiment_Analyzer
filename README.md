@@ -185,7 +185,7 @@ One Week Sentiment: (the sentiment for one week's worth of news articles on the 
 
 One Month Sentiment: (the sentiment for one month's worth of news articles on the internet)
 
-Overall Sentiment: (the arithmetic mean for the one day, one week and one month sentiment value's with equal weighting)
+Overall Sentiment: (the arithmetic mean for the one day, one week and one month sentiment scores with equal weighting)
 
 Therefore a negative score suggests that the sentiment regarding the trading instrument is negative and perhaps it is best not to buy that instrument, or if you already own any of that instrument you may want to sell it. Vice versa, a positive score suggests that the sentiment regarding the trading instrument is positive and perhaps it best to buy that instrument, or if you already own any of that instrument you may want to hold on to it.
 
