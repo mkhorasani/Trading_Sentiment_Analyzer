@@ -218,6 +218,15 @@ The following selection will divulge into the various sections of this program a
 ### One month sentiment
 **Lines 207-251:** this section of the code uses the formed query with the Google News API to retrieve news articles within the time period of 1 month. Subsequently the metapy tooklit will be used to parse, tokenize, stem and apply other filters to the retrieved text. Then the counter toolkits will be used to count the instances of negative terms `NS3` and postitive terms `PS3` in the tokenized list. The sentiment score will be calculated by calculation the difference between positive and negative terms `(PS3 - NS3)` and then will be normalized by dividing the result by the total number of positive and negative terms `(PS3 - NS3)/(PS3 + NS3)`. The final score will be rounded to 2 decimal places. 
 
+### Error message
+**Lines 258-288:** this section of the cose constructs a GUI window that alerts the user when there is not enough positive or negative terms counted in the retrieved news articles. If the number of postive terms and negative terms within a 1 day timestamp are less than 3 `(PS1 + NS1) < 3` the error message is triggered using the tkinter toolkit, which displays the following message in a new window:
+
+```
+                                  No information found for this instrument.
+                                         
+                                    Please try another trading instrument.
+``` 
+
 ## Disclaimer 
 **THE RESULTS OF THIS PROGRAM ARE NOT ALWAYS OR ENTIRELY ACCURATE. USER DISCRETION IS ADVISED AT ALL TIMES.**
 
