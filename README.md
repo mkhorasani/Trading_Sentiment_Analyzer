@@ -70,7 +70,7 @@ set path=%path%;C:/Python34/Scripts/
 pip install collections
 ```
 
-## Running Online
+## Running online
 To run this program online please visit the following URL [mkhorasani.pythonanywhere.com](https://mkhorasani.pythonanywhere.com/).
 
 
@@ -107,3 +107,23 @@ Please register with Google News API [here](https://newsapi.org/s/google-news-ap
 **Line 164:** 'apiKey=6fd0091055f944df84469bb87e3d878c'
 
 **Line 215:** 'apiKey=6fd0091055f944df84469bb87e3d878c'
+
+## Usage
+
+### Running online
+To use this program online, simply type the name of the trading instrument in the entry field and click on the button 'Generate Report'. You will be take to a page that displays the following information:
+
+----------------------------------- TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
+
+Sentiment Values Range From -1 to +1                   -1 = Negative Sentiment                   +1 = Positive Sentiment
+
+                                                                   Trading Instrument: aapl
+
+                                                                   One Day Sentiment: -0.22
+
+                                                                   One Week Sentiment: -0.05
+
+                                                                   One Month Sentiment: -0.13
+
+                                                                   Overall sentiment: -0.13
+                                                            
