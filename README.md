@@ -11,6 +11,12 @@ The entire trading community can benefit from such a tool, including but not lim
 
 ## Installation
 
+## Running online
+To run this program online please visit the following URL [mkhorasani.pythonanywhere.com](https://mkhorasani.pythonanywhere.com/).
+
+
+## Running locally
+
 ### Python 3.4
 If you do not already have a Python installation, please install Python 3.4 or a later version from [here.](https://www.python.org/downloads/release/python-340/)
 
@@ -70,11 +76,6 @@ set path=%path%;C:/Python34/Scripts/
 pip install collections
 ```
 
-## Running online
-To run this program online please visit the following URL [mkhorasani.pythonanywhere.com](https://mkhorasani.pythonanywhere.com/).
-
-
-## Running locally
 To run this script locally, please copy and paste the following files in your root directory:
 
 1. [TSA v1.0.py](https://github.com/mkhorasani/Trading_Sentiment_Analyzer/blob/master/TSA%20v1.0.py)
