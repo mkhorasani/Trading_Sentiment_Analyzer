@@ -113,7 +113,7 @@ Please register with Google News API [here](https://newsapi.org/s/google-news-ap
 ### Running online
 To use this program online, simply type the name of the trading instrument in the entry field and click on the button 'Generate Report'. You will be take to a page that displays the following information:
 
------------------------------------ TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
+`----------------------------------- TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
 
 Sentiment Values Range From -1 to +1                   -1 = Negative Sentiment                   +1 = Positive Sentiment
 
@@ -125,5 +125,5 @@ Sentiment Values Range From -1 to +1                   -1 = Negative Sentiment  
 
                                                                    One Month Sentiment: -0.13
 
-                                                                   Overall sentiment: -0.13
+                                                                   Overall sentiment: -0.13`
                                                             
