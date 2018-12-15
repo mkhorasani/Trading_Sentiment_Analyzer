@@ -70,7 +70,11 @@ set path=%path%;C:/Python34/Scripts/
 pip install collections
 ```
 
-### Running locally
+#### Running Online
+To run this program online please visit the following URL [mkhorasani.pythonanywhere.com](https://mkhorasani.pythonanywhere.com/)
+
+
+#### Running locally
 To run this script locally, please copy and paste the following files in your root directory:
 
 1. [TSAv1.0.py](https://github.com/mkhorasani/Trading_Sentiment_Analyzer/blob/master/TSA%20v1.0.py)
@@ -94,3 +98,12 @@ Subsequently you must modify the following lines of code to reflect the location
 ** *Account user name*
 
 *** *Root directory of Trading Sentiment Analyzer installation folder*
+
+### Google News API
+Please register with Google News API [here](https://newsapi.org/s/google-news-api) to receive your own API Key. Subsequently replace the current API Key with your own in the following lines of the code:
+
+**Line 113:** 'apiKey=6fd0091055f944df84469bb87e3d878c'
+
+**Line 164:** 'apiKey=6fd0091055f944df84469bb87e3d878c'
+
+**Line 215:** 'apiKey=6fd0091055f944df84469bb87e3d878c'
