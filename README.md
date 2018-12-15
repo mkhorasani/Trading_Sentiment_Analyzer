@@ -70,14 +70,14 @@ set path=%path%;C:/Python34/Scripts/
 pip install collections
 ```
 
-#### Running Online
-To run this program online please visit the following URL [mkhorasani.pythonanywhere.com](https://mkhorasani.pythonanywhere.com/)
+## Running Online
+To run this program online please visit the following URL [mkhorasani.pythonanywhere.com](https://mkhorasani.pythonanywhere.com/).
 
 
-#### Running locally
+## Running locally
 To run this script locally, please copy and paste the following files in your root directory:
 
-1. [TSAv1.0.py](https://github.com/mkhorasani/Trading_Sentiment_Analyzer/blob/master/TSA%20v1.0.py)
+1. [TSA v1.0.py](https://github.com/mkhorasani/Trading_Sentiment_Analyzer/blob/master/TSA%20v1.0.py)
 2. [lemur-stopwords.txt](https://github.com/mkhorasani/Trading_Sentiment_Analyzer/blob/master/lemur-stopwords.txt)
 3. [Illinois Logo.gif](https://github.com/mkhorasani/Trading_Sentiment_Analyzer/blob/master/Illinois%20Logo.gif)
 
