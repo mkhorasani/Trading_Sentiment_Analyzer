@@ -176,7 +176,7 @@ In the event of an irrelevant entry into the entry field, another window appear 
                                     Please try another trading instrument.
 ```                                          
 
-#### Interpreting the scores
+### Interpreting the scores
 The 'sentiment' score range from a relative score of -1 to +1. -1 represents a perfectly negative sentiment, whereas +1 represents a perfectly positive sentiment, and 0 a perfectly neutral sentiment. Most often the scores will be somewhere in between, displayed with upto 2 decimal places. The scores a presented as follows:
 
 One Day Sentiment: (the sentiment for one day's worth of news articles on the internet)
