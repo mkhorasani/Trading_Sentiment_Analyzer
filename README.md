@@ -116,16 +116,16 @@ To use this program online, simply type the name of the trading instrument in th
 ```
 ----------------------------------- TRADING SENTIMENT ANALYZER RESULTS -----------------------------------
 
-Sentiment Values Range From -1 to +1                   -1 = Negative Sentiment                   +1 = Positive Sentiment
+Sentiment Values Range From -1 to +1             -1 = Negative Sentiment           +1 = Positive Sentiment
 
-                                                                   Trading Instrument: aapl
+                                         Trading Instrument: aapl
 
-                                                                   One Day Sentiment: -0.22
+                                         One Day Sentiment: -0.22
 
-                                                                   One Week Sentiment: -0.05
+                                         One Week Sentiment: -0.05
 
-                                                                   One Month Sentiment: -0.13
+                                         One Month Sentiment: -0.13
 
-                                                                   Overall sentiment: -0.13
+                                         Overall sentiment: -0.13
 ```                                                              
                                                             
