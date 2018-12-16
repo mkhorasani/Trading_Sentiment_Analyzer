@@ -1,7 +1,7 @@
 # Trading Sentiment Analyzer
 
 ## Summary
-Trading Sentiment Analyzer will compute a normalized 'sentiment' score for any stock, currency, commodity or index by analyzing relevant and current news articles on the internet.
+Trading Sentiment Analyzer will compute a normalized 'sentiment' score for any stock, currency, commodity or index by analyzing relevant and current news articles on the internet. A video explaining this program can be found [here](https://www.youtube.com/watch?v=7c5EzELQ_7c&feature=youtu.be).
 
 ## What is the function of the program?
 Traders are well acquainted with the phenomenon of ‘sentiment’ in stock markets and trading. A professional trader must not only consult fundamental technical indicators when contemplating whether to purchase an instrument, but must also observe the sentiment regarding that individual instrument. The Trading Sentiment Analyzer will analyze any currency, commodity, cryptocurrency, stock or index that the user requests by retrieving textual information from news articles from the Google News API. Subsequently after analyzing various articles, the tool will provide a quantified score on the one day, one week, one month and overall ‘sentiment’ of that instrument. A perfectly bullish (positive) sentiment will receive a score of 1.0 whereas a perfectly bearish (negative) sentiment will receive a score of -1.0. Any score that is in between will indicate to what extent that trading instrument has a positive or negative sentiment. The sentiment value is normalized and can be used to compare to other trading instruments the market. 
